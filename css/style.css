@@ -1,0 +1,327 @@
+@import url(reset.css);
+
+body {
+	font: 13px/1.4 Arial, Tahoma, sans-serif;
+	background: url(../images/bg.jpg);
+	color: #5e5e5e;
+}
+
+a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 7px 0 13px;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 1.1;
+	margin-bottom: 6px;
+}
+
+header {
+	min-width: 960px;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 241px;
+	height: 46px;
+	float: left;
+	margin: 44px 0 42px 10px;
+}
+
+/* .banner {
+	float: right;
+	width: 468px;
+	height: 60px;
+	margin: 34px 10px 0 0;
+} */
+
+.top_menu {
+	min-width: 960px;
+	height: 49px;
+	background: url(../images/top_menu_bg.png) repeat-x;
+}
+
+.in_menu,
+.wrapper,
+.footer_content {
+	min-width: 960px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.in_menu ul li {
+	float: left;
+	text-transform: uppercase;
+}
+
+.in_menu a {
+	color: #ebebeb;
+	font-size: 12px;
+	padding: 16px 15px;
+	display: block;
+}
+
+.in_menu a:hover,
+.active {
+	background: url(../images/top_menu_hover.png) repeat-x;
+	text-decoration: none;
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	padding-right: 10px;
+}
+
+.content {
+	margin-right: 310px;
+	padding: 30px 38px 0 10px;
+}
+
+.post {
+	border-bottom: 1px dashed #e5e5e5;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.post:first-child {
+	margin-top: 0;
+}
+
+.thumbnail {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.thumbnail img {
+	border: 3px solid #e0e0e0;
+}
+
+.post_categoria,
+.post_published {
+	font-family: Georgia, Tahoma, sans-serif;
+	color: #aaaaaa;
+	margin: 0 0 3px 0;
+}
+
+.post_content {
+	margin-left: 180px;
+}
+
+.sidebar h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #999;
+	font-weight: bold;
+	background: url(../images/h3_bg.png) repeat-x 0 5px;
+	padding-left: 22px;
+	margin: 26px 0 25px;
+}
+
+.sidebar h3 span {
+	background: url(../images/bg.jpg);
+	padding: 0 7px;
+}
+
+.text_field {
+	width: 140px;
+	float: left;
+	height: 31px;
+	background: url(../images/input_bg.png) no-repeat;
+}
+
+.text_field input {
+	background: none;
+	border: none;
+	font-size: 12px;
+	color: #b1b1b1;
+	padding: 8px 10px;
+	width: 120px;
+	height: 15px;
+	outline: 0;
+}
+
+.sidebar form {
+	margin: 0 auto;
+	width: 220px;
+}
+
+.first_row,
+.second_row {
+	width: 270px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+	display: block;
+}
+
+.right {
+	float: right;
+	display: block;
+}
+
+.second_row {
+	margin-top: 14px;
+}
+
+.categories {
+	overflow: hidden;
+}
+
+.categories ul {
+	width: 140px;
+}
+
+.categories ul li {
+	border-top: 1px dashed #e3e3e3;
+	padding: 9px 0;
+}
+
+.categories ul li:first-child {
+	border: none;
+}
+
+.categories ul li a {
+	font-weight: bold;
+}
+
+.categories h3 {
+	margin-bottom: 14px;
+}
+
+.pagination {
+	margin: 34px 0;
+}
+
+.pagination ul {
+	overflow: hidden;
+}
+
+.pagination ul li {
+	float: left;
+	margin-right: 2px;
+}
+
+.pagination ul li:last-child {
+	margin-right: 0;
+}
+
+.pagination ul li a {
+	display: block;
+	padding: 9px 14px 6px;
+	border-bottom: 3px solid #ccc;
+}
+
+.pagination ul li a:hover {
+	text-decoration: none;
+	background: #e7e7e7;
+}
+
+.pagination .current,
+.pagination .current:hover {
+	background: #333;
+	color: #fff;
+	border-bottom: 3px solid #333;
+}
+
+.pagination .arrow {
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+
+.footer_top {
+	height: 19px;
+	background: url(../images/footer_bg.png) repeat-x;
+}
+
+.footer_middle {
+	background: url(../images/foter_bg_main.png);
+	padding-bottom: 60px;
+}
+
+.footer_box {
+	padding-top: 55px;
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+.footer_box:last-child {
+	margin-right: 0;
+}
+
+.footer_content {
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer {
+	min-width: 960px;
+	color: #e0e0e0;
+}
+
+.magazine {
+	background: url(../images/logo_f.png) no-repeat;
+	padding-top: 45px;
+}
+
+.magazine p {
+	margin: 16px 0;
+}
+
+footer h3 {
+	background: url(../images/h3_f.png) repeat-x 0 4px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	width: 220px;
+	margin-bottom: 10px;
+}
+
+footer h3 span {
+	background: url(../images/foter_bg_main.png);
+	padding-right: 13px;
+}
+
+.recent ul li {
+	padding: 12px 0;
+	background: url(../images/dashed_f.png) repeat-x;
+	background-position: left bottom;
+}
+
+.recent ul li a{
+	color: #e0e0e0;
+}
+
+.footer_bottom {
+	background: url(../images/footer_bot_bg.png) repeat-x;
+}
+
+.footer_bottom p {
+	margin: 0;
+	padding: 30px 0;
+}
+
+.footer_bottom a {
+	color: #8f8f8f;
+}
